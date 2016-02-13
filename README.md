@@ -22,4 +22,4 @@ Package it with maven
   - copy the result war file into your tomcat/webapp folder
   - Then open the URL: http://localhost:8080/spring-mvc-angularjs
 
-Adding test msg...123
+Adding test msg...
