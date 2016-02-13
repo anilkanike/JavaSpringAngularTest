@@ -1,7 +1,9 @@
-package com.xvitcoder.springmvcangularjs.controller;
+package com.learn.springmvcangularjs.controller;
 
 import java.util.List;
 
+import com.learn.springmvcangularjs.beans.RailwayStation;
+import com.learn.springmvcangularjs.service.RailwayStationServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -10,9 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import com.xvitcoder.springmvcangularjs.beans.RailwayStation;
-import com.xvitcoder.springmvcangularjs.service.RailwayStationServiceImpl;
 
 @Controller
 @RequestMapping("/railwaystations")

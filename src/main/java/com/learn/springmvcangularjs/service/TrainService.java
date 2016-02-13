@@ -1,6 +1,6 @@
-package com.xvitcoder.springmvcangularjs.service;
+package com.learn.springmvcangularjs.service;
 
-import com.xvitcoder.springmvcangularjs.beans.Train;
+import com.learn.springmvcangularjs.beans.Train;
 
 import java.util.List;
 

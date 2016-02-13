@@ -1,4 +1,4 @@
-package com.xvitcoder.springmvcangularjs.beans;
+package com.learn.springmvcangularjs.beans;
 
 public class RailwayStation {
 

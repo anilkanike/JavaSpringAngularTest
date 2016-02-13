@@ -1,4 +1,4 @@
-package com.xvitcoder.springmvcangularjs.config;
+package com.learn.springmvcangularjs.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;

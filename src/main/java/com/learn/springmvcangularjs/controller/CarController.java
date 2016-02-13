@@ -1,6 +1,6 @@
-package com.xvitcoder.springmvcangularjs.controller;
+package com.learn.springmvcangularjs.controller;
 
-import com.xvitcoder.springmvcangularjs.service.CarService;
+import com.learn.springmvcangularjs.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

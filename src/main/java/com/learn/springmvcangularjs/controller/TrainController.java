@@ -1,7 +1,7 @@
-package com.xvitcoder.springmvcangularjs.controller;
+package com.learn.springmvcangularjs.controller;
 
-import com.xvitcoder.springmvcangularjs.beans.Train;
-import com.xvitcoder.springmvcangularjs.service.TrainService;
+import com.learn.springmvcangularjs.beans.Train;
+import com.learn.springmvcangularjs.service.TrainService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

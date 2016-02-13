@@ -1,4 +1,4 @@
-package com.xvitcoder.springmvcangularjs.controller;
+package com.learn.springmvcangularjs.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
