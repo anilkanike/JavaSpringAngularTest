@@ -1,10 +1,10 @@
 package com.learn.springmvcangularjs.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.learn.springmvcangularjs.beans.RailwayStation;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Service("RailwayStationService")
@@ -56,7 +56,6 @@ public class RailwayStationServiceImpl implements RailwayStationService {
         }
 	}
 	
-    @Override
     public void deleteAll() {
         rsList.clear();
         id = 0L;

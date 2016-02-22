@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,6 +19,11 @@ import java.util.List;
 @Controller
 @RequestMapping("/trains")
 public class TrainController {
+
+    private static final String DEFAULT_URL = "redirect:/html/default.html";
+
+    List<String> hello = new ArrayList<String>();
+
 
     @Autowired
     private TrainService trainService;
