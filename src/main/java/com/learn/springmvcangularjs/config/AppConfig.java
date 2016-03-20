@@ -13,4 +13,6 @@ public class AppConfig {
     public void methodOne(){}
 
     public void methodTwo(){}
+
+    public void devmethod(){}
 }
