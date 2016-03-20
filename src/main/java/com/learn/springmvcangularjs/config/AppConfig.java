@@ -11,4 +11,6 @@ public class AppConfig {
     public void uatMethod(){}
 
     public void methodOne(){}
+
+    public void methodTwo(){}
 }
